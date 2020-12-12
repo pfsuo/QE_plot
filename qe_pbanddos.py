@@ -152,7 +152,7 @@ for i in range(len(odos)):
     for j in odos[i]:
         pdos += D[j][:,1]
     line1 = plt.plot(pdos,D[0][:,0]-efermi,color=color[i],lw=lw,label=label[i])
-plt.xlim(xmin=0,xmax=9)
+plt.xlim(xmin=0)
 plt.ylim([ymin,ymax])
 plt.xlabel('DOS (a.u.)',fontsize=fontsize)
 plt.xticks([])
