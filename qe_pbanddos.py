@@ -137,8 +137,8 @@ for i in range(len(oo)):
 
 plt.xlim([0,nks-1]) # 201 points
 plt.ylabel('E-E${_F}$ (eV)',fontsize=12)
-plt.xticks(xticks,xticklabel, fontsize=12)
-plt.title('bandstructure of SmB$_6$', fontsize=12)
+plt.xticks(xticks,xticklabels, fontsize=12)
+plt.title(title, fontsize=12)
 
 plt.subplots_adjust(left=0.20, right=0.75, top=0.95, bottom=0.1)
 
